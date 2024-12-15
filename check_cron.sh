@@ -34,7 +34,7 @@ else
   fi
 fi
 echo "检查 gost 启动脚本存在情况"
-if [ -e "${GOSTSH_PATH}/start_gost.sh" ]; then
+if [ -e "${GOSTSH_PATH}/restart_gost.sh" ]; then
   echo "gost文件存在！"
 else
   echo "gost文件不存在！"
